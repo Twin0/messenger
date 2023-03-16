@@ -1,3 +1,14 @@
+<?php
+session_start();
+if(!isset($_SESSION["uname"])){
+	header("Location: /messenger/index.html");
+	exit;
+}
+
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>

@@ -73,9 +73,13 @@ span.psw {
 
 <h2>Register</h2>
 
-<form action="register.php" method="post">
+	 <?php
+	echo '<script type="text/javascript"> window.onload = function () { alert("Welcome");} </script>'; 
+	?> 
 
+<form action="register2.php" method="post">
 
+	
   <div class="container">
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
